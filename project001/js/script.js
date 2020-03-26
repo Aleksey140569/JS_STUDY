@@ -35,7 +35,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 }
             }
         }
-        
     });
 
     // timer
@@ -48,12 +47,12 @@ window.addEventListener('DOMContentLoaded', function() {
             minutes = Math.floor((t / 1000 / 60) % 60),
             hours = Math.floor((t / (1000 * 60 * 60)) % 60);
 
-            return {
-                'total': t,
-                'hours': hours,
-                'minutes': minutes,
-                'seconds': seconds,
-            };
+        return {
+            'total': t,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds,
+        };
     }
 
     function setClock(id, endTime) {
