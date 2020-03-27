@@ -258,6 +258,7 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 
     place.addEventListener('change', function() {
+        
         if(restDays.value == '' || persons.value == '') {
             totalValue.innerHTML = 0;
         }
