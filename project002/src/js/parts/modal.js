@@ -1,6 +1,6 @@
 // modal
 
-function myModal() {
+function modal() {
 
     let more = document.querySelector('.more'),
         overlay = document.querySelector('.overlay'),

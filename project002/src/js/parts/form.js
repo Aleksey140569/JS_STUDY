@@ -1,6 +1,6 @@
 // form
 
-function myForm() {
+function form() {
 
     let message = {
         loading: 'Загрузка...',
